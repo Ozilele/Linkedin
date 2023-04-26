@@ -1,0 +1,89 @@
+
+.feed__section {
+    flex: 0.6;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.input__container {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.input__section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: gray;
+    font-size: 1.1rem;
+}
+
+.feed__form {
+    width: 100%;
+    display: flex;
+}
+
+.feed__form > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.feed__form > button {
+    display: none;
+}
+
+.create__icon {
+    margin-right: 6px;
+}
+
+.icons__section {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icon__section {
+    flex: 0.25;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+
+.icon__section:hover {
+    background-color:#F6F6C9;
+    border-radius: 10px;
+}
+
+.photo__icon {
+    color: #47B5FF;
+    margin-right: 6px;
+}
+
+.video__icon {
+    color: #FFD384;
+    margin-right: 6px;
+}
+
+.event__icon {
+    color: #D8D9CF;
+    margin-right: 6px;
+}
+
+.article__icon {
+    color: #FD841F;
+    margin-right: 6px;
+}
+
+.posts__container {
+    margin-top: 1.2rem;
+}

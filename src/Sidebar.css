@@ -1,0 +1,115 @@
+
+.sidebar {
+    position: sticky;
+    top: 80px;
+    margin-top: 10px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.sidebar__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+
+.sidebar__top > h2 {
+    color: #251B37;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.sidebar__top > h3 {
+    color: #AEBDCA;
+    font-size: 1.05rem;
+}
+
+.sidebar__top > img {
+    margin-bottom: -20px;
+    height: 85px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.sidebar__avatar {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.sidebar__stats {
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border: 1px solid lightgray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+}
+
+.sidebar__stat {
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    cursor: pointer;
+    color: gray;
+}
+
+.sidebar__stat > p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar__stat > span {
+    font-weight: bold;
+    color: #0a66c2 !important;
+} 
+
+.sidebar__stat:hover {
+    color: orange;
+}
+
+.sidebar__bottom {
+    background-color: white;
+    text-align: left;
+    padding: 12px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border: 1px solid lightgray;
+}
+
+.sidebar__recentItem {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    color: gray;
+    font-weight: 400;
+    margin-bottom: 4px;
+    transition: all 0.3 ease-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar__hash {
+    margin-right: 8px;
+}
+
+.sidebar__recentItem:hover {
+    color: black;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+
